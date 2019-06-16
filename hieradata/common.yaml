@@ -1,0 +1,6 @@
+# Hiera(5) data lookup options - Deep merge.
+lookup_options:
+  "^(.*)$":
+   merge:
+     strategy:          deep
+     merge_hash_arrays: true
